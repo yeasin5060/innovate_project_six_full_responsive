@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 p {
+  line-height: 0.8px;
+}
+
+.container {
+  width: 1410px;
+  margin: 0 auto;
+}
+
+/*=================== start navbar part ===================== */
+#navbar {
+  padding: 24px 0;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 111;
+}
+#navbar .nav_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar .nav_wrapper .nav_logo {
+  width: 20%;
+}
+#navbar .nav_wrapper .nav_logo picture a img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+#navbar .nav_wrapper .nav_menu {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navbar .nav_wrapper .nav_menu .list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 48px;
+}
+#navbar .nav_wrapper .nav_menu .list li a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #29313D;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+#navbar .nav_wrapper .nav_menu .list li a i {
+  font-size: 18px;
+  font-weight: 600;
+  color: #29313D;
+  margin-left: 8px;
+}
+#navbar .nav_wrapper .nav_menu .list li .dropdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 12px;
+  background-color: #fff;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 30px;
+  left: 43%;
+  transform: translateX(-52%);
+  z-index: 555;
+  transition: all linear 0.3s;
+}
+#navbar .nav_wrapper .nav_menu .list li .dropdown li a {
+  font-size: 18px;
+  transition: all linear 0.3s;
+}
+#navbar .nav_wrapper .nav_menu .list li .dropdown li a:hover {
+  color: #FF5538;
+}
+#navbar .nav_wrapper .nav_menu > ul li {
+  position: relative;
+  padding-bottom: 10px;
+}
+#navbar .nav_wrapper .menu > ul li:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.55);
+}
+#navbar .nav_wrapper .nav_menu > ul li:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+  color: #FF5538;
+  cursor: pointer;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.55);
+}
+#navbar .nav_wrapper .nav_btn {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+#navbar .nav_wrapper .nav_btn a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FF5538;
+  border: 1px solid #FF5538;
+  padding: 14px 28px;
+  border-radius: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+#navbar .nav_wrapper .nav_bars i {
+  font-size: 22px;
+  color: #29313D;
+}
+
+/*=================== end navbar part ===================== */
+/*=================== start banar part ===================== */
+#banar {
+  padding: 208px 0 100px 0;
+  background: #FFDCD8;
+}
+#banar .banar_contant {
+  margin: 0 auto;
+  text-align: center;
+}
+#banar .banar_contant .banar_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 12.5px;
+}
+#banar .banar_contant .banar_list a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #29313D;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+#banar .banar_contant .banar_list i {
+  font-size: 18px;
+  font-weight: 600;
+  color: #29313D;
+}
+#banar .banar_contant .banar_head {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+#banar .banar_contant .banar_head .head {
+  width: 100%;
+  font-size: 64px;
+  font-weight: 700;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 150%;
+  margin-top: 20px;
+}
+#banar .banar_contant .banar_pera {
+  width: 709px;
+  margin: 0 auto;
+  text-align: center;
+}
+#banar .banar_contant .banar_pera .pera {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 200%;
+  margin-top: 24px;
+}
+
+/*=================== end banar part ===================== */
+/*=================== start marketing part ===================== */
+#marketing {
+  margin: 80px 0;
+}
+#marketing .marketing_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #FFDCD8;
+}
+#marketing .marketing_wrapper .marketing_side {
+  padding: 25px 20px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+#marketing .marketing_wrapper .marketing_side:hover {
+  background: #fff;
+}
+#marketing .marketing_wrapper .marketing_side a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #29313D;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/*=================== end marketing part ===================== */
+/* =================== start images part ====================== */
+#images {
+  padding: 10px 0;
+  background: #fff;
+}
+#images .images_wrapeer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+#images .images_wrapeer .images_box_contant {
+  width: 450px;
+  background: #fff;
+}
+#images .images_wrapeer .images_box_contant .image_box {
+  width: 100%;
+  height: 342px;
+  overflow: hidden;
+  background: #29313D;
+}
+#images .images_wrapeer .images_box_contant .image_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#images .images_wrapeer .images_box_contant .image_contant {
+  margin: 34px 0 0 24px;
+}
+#images .images_wrapeer .images_box_contant .image_contant .image_contant_pera {
+  font-size: 14px;
+  font-weight: 400;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+#images .images_wrapeer .images_box_contant .image_contant .image_contant_head {
+  font-size: 28px;
+  font-weight: 600;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 140%;
+}
+
+/* =================== end images part ====================== */
+/* =================== start footer part ====================== */
+#foot {
+  padding: 120px 0 70px 0;
+}
+#foot .foot_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+#foot .foot_wrapper .foot_contant p {
+  width: 450px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #29313D;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+#foot .foot_wrapper .foot_wrapper_two {
+  display: flex;
+  justify-content: center;
+  column-gap: 199px;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_head .foot_heading {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #29313D;
+  margin-bottom: 48px;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+#foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list li a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #29313D;
+  cursor: pointer;
+  text-transform: capitalize;
+  line-height: 150%;
+}
+#foot .last_foot_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#foot .last_foot_wrapper .last_contant {
+  margin-top: 80px;
+}
+#foot .last_foot_wrapper .last_contant a {
+  width: 312px;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 140%;
+  cursor: pointer;
+}
+#foot .last_foot_wrapper .last_contant_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  column-gap: 60px;
+}
+#foot .last_foot_wrapper .last_contant_wrapper .last_contant_two {
+  margin-top: 80px;
+}
+#foot .last_foot_wrapper .last_contant_wrapper .last_contant_two a {
+  width: 200px;
+  font-size: 18px;
+  font-weight: 400px;
+  color: #29313D;
+  text-transform: capitalize;
+  line-height: 140%;
+  cursor: pointer;
+}
+
+/* =================== end footer part ====================== *//*# sourceMappingURL=style.css.map */

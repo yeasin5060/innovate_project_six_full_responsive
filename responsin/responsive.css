@@ -1,0 +1,755 @@
+@media (max-width : 575.99px){
+    /*============= start navbar ==============*/
+    .container{
+        width: 100%;
+    }
+    #navbar{
+        padding: 16px 0;
+    }
+    .nav_wrapper{
+        padding: 0 15px;
+    }
+    #navbar .nav_wrapper .nav_logo {
+        width: 20%;
+    }
+    #navbar .nav_wrapper .nav_logo picture a img {
+        width: 100%;
+    }
+    #navbar .nav_wrapper .nav_menu{
+        display: none;
+    }
+    .nav_btn a{
+        display: none;
+    }
+    /*============= start banar ==============*/
+    #banar{
+        padding: 130px 0 70px 0;
+    }
+    #banar .banar_contant .banar_list a {
+        font-size: 12px;
+    }
+    #banar .banar_contant .banar_list i{
+        font-size: 12px;
+    }
+    #banar .banar_contant .banar_head {
+        width: 300px;
+    }
+    #banar .banar_contant .banar_head .head {
+        width: 100%;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 120%;
+        margin-top: 10px;
+    }
+    #banar .banar_contant .banar_pera {
+        width: 300px;
+    }
+    #banar .banar_contant .banar_pera .pera {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 120%;
+        margin-top: 14px;
+    }
+    /*============= start marketing ==============*/
+    #marketing{
+        margin: 0;
+    }
+    #marketing .marketing_wrapper .marketing_side a{
+        font-size: 14px;
+    }
+    /*============= start images ==============*/
+    #images{
+        margin-top: 20px;
+    }
+    #images .images_wrapeer{
+        margin: 0 10px;
+        row-gap: 20px;
+    }
+    #images .images_wrapeer .images_box_contant{
+        width: 230px;
+    }
+    #images .images_wrapeer .images_box_contant .image_box{
+        height: 230px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant {
+        margin: 14px 0 0 14px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_pera {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_head {
+        font-size: 20px;
+        font-weight: 400;
+    }
+     /*============= start footer ==============*/
+     #foot {
+        padding: 70px 0 20px 0;
+      }
+      #foot .foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .foot_wrapper .foot_contant p {
+        width: 280px;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two{
+        justify-content: left;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_heading {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list li a {
+        font-size: 18px;
+        font-weight: 500;
+    
+    }
+    #foot .last_foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .last_foot_wrapper .last_contant {
+        margin-top: 30px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper {
+        column-gap: 20px;
+    }
+    #foot .last_foot_wrapper .last_contant a {
+        width: 280px;
+        font-size: 16px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two {
+        margin-top: 30px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two a {
+        width: 150px;
+        font-size: 16px;
+        
+    }
+}
+
+@media (min-width : 576px) and (max-width : 767.99px){
+    .container{
+        width: 100%;
+    }
+    #navbar{
+        padding: 16px 0;
+    }
+    .nav_wrapper{
+        padding: 0 15px;
+    }
+    #navbar .nav_wrapper .nav_logo {
+        width: 20%;
+    }
+    #navbar .nav_wrapper .nav_logo picture a img {
+        width: 70%;
+    }
+    #navbar .nav_wrapper .nav_menu{
+        display: none;
+    }
+    .nav_btn a{
+        display: none;
+    }
+     /*============= start banar ==============*/
+     #banar{
+        padding: 150px 0 70px 0;
+    }
+    #banar .banar_contant .banar_list a {
+        font-size: 14px;
+    }
+    #banar .banar_contant .banar_list i{
+        font-size: 14px;
+    }
+    #banar .banar_contant .banar_head {
+        width: 400px;
+    }
+    #banar .banar_contant .banar_head .head {
+        width: 100%;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 130%;
+        margin-top: 13px;
+    }
+    #banar .banar_contant .banar_pera {
+        width: 450px;
+    }
+    #banar .banar_contant .banar_pera .pera {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 120%;
+        margin-top: 14px;
+    }
+    /*============= start marketing ==============*/
+    #marketing{
+        margin: 5px 0;
+    }
+    #marketing .marketing_wrapper .marketing_side a{
+        font-size: 15px
+    }
+    /*============= start images ==============*/
+    #images{
+        margin-top: 20px;
+    }
+    #images .images_wrapeer{
+        margin: 0 10px;
+        row-gap: 20px;
+    }
+    #images .images_wrapeer .images_box_contant{
+        width: 310px;
+    }
+    #images .images_wrapeer .images_box_contant .image_box{
+        height: 270px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant {
+        margin: 20px 0 0 18px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_pera {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_head {
+        font-size: 20px;
+        font-weight: 400;
+    }
+     /*============= start footer ==============*/
+     #foot {
+        padding: 90px 0 30px 0;
+      }
+      #foot .foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .foot_wrapper .foot_contant p {
+        width: 400px;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two{
+        justify-content: left;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_heading {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list li a {
+        font-size: 18px;
+        font-weight: 500;
+    
+    }
+    #foot .last_foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .last_foot_wrapper .last_contant {
+        margin-top: 40px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper {
+        column-gap: 30px;
+    }
+    #foot .last_foot_wrapper .last_contant a {
+        width: 320px;
+        font-size: 16px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two {
+        margin-top: 30px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two a {
+        width: 200px;
+        font-size: 16px;
+        
+    }
+}
+
+@media (min-width : 768px) and (max-width : 991.99px){
+    .container{
+        width: 100%;
+    }
+    #navbar{
+        padding: 16px 0;
+    }
+    .nav_wrapper{
+        padding: 0 15px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li a{
+        font-size: 12px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li a i{
+        font-size: 12px;
+        margin-left: 4;
+    }
+    #navbar .nav_wrapper .nav_menu .list li .dropdown li a{
+        font-size: 12px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li .dropdown{
+        row-gap: 2px;
+        background-color: #fff;
+        cursor: pointer;
+        width: 150px;
+        height: 150px;
+    }
+    #navbar .nav_wrapper .nav_logo {
+        width: 20%;
+    }
+    #navbar .nav_wrapper .nav_logo picture a img {
+        width: 50%;
+    }
+    #navbar .nav_wrapper .nav_btn a{
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+    #navbar .nav_wrapper .nav_bars{
+        display: none;
+    }
+     /*============= start banar ==============*/
+     #banar{
+        padding: 160px 0 80px 0;
+    }
+    #banar .banar_contant .banar_list a {
+        font-size: 15px;
+    }
+    #banar .banar_contant .banar_list i{
+        font-size: 15px;
+    }
+    #banar .banar_contant .banar_head {
+        width: 450px;
+    }
+    #banar .banar_contant .banar_head .head {
+        width: 100%;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 130%;
+        margin-top: 13px;
+    }
+    #banar .banar_contant .banar_pera {
+        width: 500px;
+    }
+    #banar .banar_contant .banar_pera .pera {
+        width: 100%;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 140%;
+        margin-top: 15px;
+    }
+    /*============= start marketing ==============*/
+    #marketing{
+        margin: 30px 0 50px 0;
+    }
+    #marketing .marketing_wrapper .marketing_side a{
+        font-size: 16px;
+    }
+    /*============= start images ==============*/
+    #images{
+        margin-top: 20px;
+    }
+    #images .images_wrapeer{
+        margin: 0 10px;
+    }
+    #images .images_wrapeer .images_box_contant{
+        width: 270px;
+    }
+    #images .images_wrapeer .images_box_contant .image_box{
+        height: 230px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant {
+        margin: 24px 0 0 14px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_pera {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_head {
+        font-size: 20px;
+        font-weight: 500;
+    }
+     /*============= start footer ==============*/
+     #foot {
+        padding: 90px 0 40px 0;
+      }
+      #foot .foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .foot_wrapper .foot_contant p {
+        width: 400px;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two{
+        justify-content: space-between;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_heading {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list li a {
+        font-size: 18px;
+        font-weight: 500;
+    
+    }
+    #foot .last_foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .last_foot_wrapper .last_contant {
+        margin-top: 40px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper {
+        column-gap: 20px;
+    }
+    #foot .last_foot_wrapper .last_contant a {
+        width: 280px;
+        font-size: 16px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two {
+        margin-top: 40px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two a {
+        width: 200px;
+        font-size: 16px;
+        
+    }
+}
+
+@media (min-width : 992px) and (max-width : 1199.99px){
+    .container{
+        width: 100%;
+    }
+    #navbar{
+        padding: 20px 0;
+    }
+    .nav_wrapper{
+        padding: 0 15px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li a{
+        font-size: 14px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li a i{
+        font-size: 14px;
+        margin-left: 5;
+    }
+    #navbar .nav_wrapper .nav_menu .list li .dropdown li a{
+        font-size: 12px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li .dropdown{
+        row-gap: 2px;
+        background-color: #fff;
+        cursor: pointer;
+        width: 150px;
+        height: 150px;
+    }
+    #navbar .nav_wrapper .nav_logo {
+        width: 20%;
+    }
+    #navbar .nav_wrapper .nav_logo picture a img {
+        width: 50%;
+    }
+    #navbar .nav_wrapper .nav_btn a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    #navbar .nav_wrapper .nav_bars{
+        display: none;
+    }
+     /*============= start banar ==============*/
+     #banar{
+        padding: 180px 0 80px 0;
+    }
+    #banar .banar_contant .banar_list a {
+        font-size: 16px;
+    }
+    #banar .banar_contant .banar_list i{
+        font-size: 16px;
+    }
+    #banar .banar_contant .banar_head {
+        width: 500px;
+    }
+    #banar .banar_contant .banar_head .head {
+        width: 100%;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 140%;
+        margin-top: 15px;
+    }
+    #banar .banar_contant .banar_pera {
+        width: 550px;
+    }
+    #banar .banar_contant .banar_pera .pera {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        margin-top: 14px;
+    }
+    /*============= start marketing ==============*/
+    #marketing{
+        margin: 50px 0  80px 0;
+    }
+    #marketing .marketing_wrapper .marketing_side a{
+        font-size: 17px;
+    }
+    /*============= start images ==============*/
+    #images{
+        margin-top: 20px;
+    }
+    #images .images_wrapeer{
+        margin: 0 10px;
+        row-gap: 25px;
+    }
+    #images .images_wrapeer .images_box_contant{
+        width: 340px;
+    }
+    #images .images_wrapeer .images_box_contant .image_box{
+        height: 300px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant {
+        margin: 28px 0 0 20px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_pera {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_head {
+        font-size: 26px;
+        font-weight: 600;
+    }
+     /*============= start footer ==============*/
+     #foot {
+        padding: 100px 0 50px 0;
+      }
+      #foot .foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .foot_wrapper .foot_contant p {
+        width: 300px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two{
+        justify-content: left;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_heading {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list li a {
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+    #foot .last_foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .last_foot_wrapper .last_contant {
+        margin-top: 30px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper {
+        column-gap: 20px;
+    }
+    #foot .last_foot_wrapper .last_contant a {
+        width: 300px;
+        font-size: 18px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two {
+        margin-top: 30px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two a {
+        width: 200px;
+        font-size: 18px;
+        
+    }
+}
+
+@media (min-width : 1200px) and (max-width : 1399.99px){
+    .container{
+        width: 100%;
+    }
+    #navbar{
+        padding: 16px 0;
+    }
+    .nav_wrapper{
+        padding: 0 15px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li a{
+        font-size: 16px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li a i{
+        font-size: 16px;
+        margin-left: 4;
+    }
+    #navbar .nav_wrapper .nav_menu .list li .dropdown li a{
+        font-size: 12px;
+    }
+    #navbar .nav_wrapper .nav_menu .list li .dropdown{
+        row-gap: 2px;
+        background-color: #fff;
+        cursor: pointer;
+        width: 150px;
+        height: 150px;
+    }
+    #navbar .nav_wrapper .nav_logo {
+        width: 20%;
+    }
+    #navbar .nav_wrapper .nav_logo picture a img {
+        width: 50%;
+    }
+    #navbar .nav_wrapper .nav_btn a{
+        font-size: 16px;
+        padding: 10px 26px;
+    }
+    #navbar .nav_wrapper .nav_bars{
+        display: none;
+    }
+     /*============= start banar ==============*/
+     #banar{
+        padding: 200px 0 90px 0;
+    }
+    #banar .banar_contant .banar_list a {
+        font-size: 18px;
+    }
+    #banar .banar_contant .banar_list i{
+        font-size: 18px;
+    }
+    #banar .banar_contant .banar_head {
+        width: 550px;
+    }
+    #banar .banar_contant .banar_head .head {
+        width: 100%;
+        font-size: 58px;
+        font-weight: 600;
+        line-height: 140%;
+        margin-top: 15px;
+    }
+    #banar .banar_contant .banar_pera {
+        width: 650px;
+    }
+    #banar .banar_contant .banar_pera .pera {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 170%;
+        margin-top: 18px;
+    }
+    /*============= start marketing ==============*/
+    #marketing{
+        margin: 60px 0 70px 0;
+    }
+    #marketing .marketing_wrapper .marketing_side a{
+        font-size: 18px;
+    }
+    #images .images_wrapeer .images_box_contant{
+        width: 400px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant {
+        margin: 30px 0 0 24px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_pera {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_head {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    /*============= start images ==============*/
+    #images{
+        margin-top: 40px;
+    }
+    #images .images_wrapeer{
+        margin: 0 10px;
+        row-gap: 30px;
+    }
+    #images .images_wrapeer .images_box_contant{
+        width: 360px;
+    }
+    #images .images_wrapeer .images_box_contant .image_box{
+        height: 310px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant {
+        margin: 28px 0 0 20px;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_pera {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    #images .images_wrapeer .images_box_contant .image_contant .image_contant_head {
+        font-size: 27px;
+        font-weight: 600;
+    }
+     /*============= start footer ==============*/
+     #foot {
+        padding: 70px 0 20px 0;
+      }
+      #foot .foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .foot_wrapper .foot_contant p {
+        width: 300px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two{
+        justify-content: left;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_heading {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    #foot .foot_wrapper .foot_wrapper_two .foot_head .foot_list li a {
+        font-size: 20px;
+    }
+    #foot .last_foot_wrapper{
+        padding: 0 10px;
+    }
+    #foot .last_foot_wrapper .last_contant {
+        margin-top: 50px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper {
+        column-gap: 25px;
+    }
+    #foot .last_foot_wrapper .last_contant a {
+        width: 280px;
+        font-size: 16px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two {
+        margin-top: 50px;
+    }
+    #foot .last_foot_wrapper .last_contant_wrapper .last_contant_two a {
+        width: 200px;
+        font-size: 16px;
+        
+    }
+}
+
+@media (min-width : 1400px){
+    .nav_bars{
+        display: none;
+    }
+}
