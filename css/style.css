@@ -132,6 +132,50 @@ h1 h2 h3 h4 h5 h6 p {
   font-size: 22px;
   color: #29313D;
 }
+#navbar .site_bars {
+  padding: 20px 20px;
+  background: rgba(255, 255, 255, 0.8470588235);
+  box-shadow: 0px 0px 21px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  transition: all linear 0.2s;
+  position: absolute;
+  left: -200px;
+  top: 0;
+  opacity: 999;
+}
+#navbar .site_bars .site_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#navbar .site_bars .site_wrapper .saie_image {
+  width: 50px;
+}
+#navbar .site_bars .site_wrapper .saie_image a img {
+  width: 100%;
+  object-fit: cover;
+}
+#navbar .site_bars .site_wrapper .site_cons i {
+  font-size: 16px;
+  color: #29313D;
+}
+#navbar .site_bars .site_list {
+  display: flex;
+  justify-content: left;
+  row-gap: 10px;
+  flex-direction: column;
+}
+#navbar .site_bars .site_list li a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #29313D;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+#navbar .site_bars .site_list li a:hover {
+  color: #FF5538;
+}
 
 /*=================== end navbar part ===================== */
 /*=================== start banar part ===================== */

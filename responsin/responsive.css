@@ -158,6 +158,21 @@
     .nav_btn a{
         display: none;
     }
+    #navbar .site_bars {
+        width: 300px;
+    }
+    #navbar .site_bars .site_wrapper .saie_image {
+        width: 70px;
+    }
+    #navbar .site_bars .site_wrapper .site_cons i {
+        font-size: 20px;
+    }
+    #navbar .site_bars .site_list {
+        row-gap: 15px;
+    }
+    #navbar .site_bars .site_list li a {
+        font-size: 18px;
+    }
      /*============= start banar ==============*/
      #banar{
         padding: 150px 0 70px 0;
@@ -313,6 +328,9 @@
     #navbar .nav_wrapper .nav_bars{
         display: none;
     }
+    #navbar .site_bars {
+        display: none;
+    }
      /*============= start banar ==============*/
      #banar{
         padding: 160px 0 80px 0;
@@ -465,6 +483,9 @@
         padding: 10px 20px;
     }
     #navbar .nav_wrapper .nav_bars{
+        display: none;
+    }
+    #navbar .site_bars {
         display: none;
     }
      /*============= start banar ==============*/
@@ -622,6 +643,9 @@
     #navbar .nav_wrapper .nav_bars{
         display: none;
     }
+    #navbar .site_bars {
+        display: none;
+    }
      /*============= start banar ==============*/
      #banar{
         padding: 200px 0 90px 0;
@@ -750,6 +774,9 @@
 
 @media (min-width : 1400px){
     .nav_bars{
+        display: none;
+    }
+    #navbar .site_bars {
         display: none;
     }
 }
